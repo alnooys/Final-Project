@@ -1,0 +1,76 @@
+body{
+    background-image:url('FINALPROJECTbg.jpg');
+    background-size:cover ;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 15px;
+}
+.navbar {
+    overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 42%;
+  margin-left: 30%;
+  border-radius: 100px;
+}
+.navbar a {
+  float: center;
+  display: inline-flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+h1{
+    background-color: transparent;
+    font-size: 40px;
+    font-family:bold;
+    color: solid black;
+    margin-bottom: 40px;
+    background-color:whitesmoke;
+}
+h2{
+    background-color: transparent;
+    font-size: 35px;
+    font-family:bold;
+    color: solid black;
+    padding-top: 30px;
+    margin-bottom: 40px;
+	margin-left: 40%;
+	margin-right: 40%;
+    background-color:whitesmoke;
+}
+iframe {
+    width: 1200px;
+    height: 1000px;
+}
+.bdesign {
+    opacity: .85;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
